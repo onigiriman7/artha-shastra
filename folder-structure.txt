@@ -1,0 +1,70 @@
+artha-shastra/
+├── web-app/                        # Web application for interactive learning
+│   ├── src/                        # React app source code (placeholder)
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   └── assets/
+│   ├── public/                     # Static assets (e.g., images, PDFs)
+│   ├── package.json                # Dependencies (to be added)
+│   └── README.md                   # Setup instructions for developers
+├── shastra-source-material/        # Original Arthashastra text and translations
+│   ├── original/                   # Devanagari text or links
+│   │   ├── arthashastra.md         # Link to source or excerpts
+│   │   └── README.md
+│   ├── translations/               # Summaries in Indian languages
+│   │   ├── english.md              # English summary
+│   │   ├── hindi.md                # Hindi summary
+│   │   └── README.md
+│   └── README.md                   # Guide to source material
+├── commentaries/                   # Notes and explanations of Arthashastra
+│   ├── rajadharma.md               # Notes on ethical leadership
+│   ├── kosha.md                    # Notes on economic governance
+│   ├── niti.md                     # Notes on policy and diplomacy
+│   ├── dandaniti.md                # Notes on justice
+│   └── README.md                   # Guide to using commentaries
+├── constitution-breakdown/         # Governance frameworks inspired by Arthashastra
+│   ├── rajadharma/                 # Framework for ethical leadership
+│   │   ├── one-pager.md            # 1-page summary
+│   │   ├── examples.md             # Real-world applications
+│   │   ├── activities.md            # Student activities
+│   │   └── README.md
+│   ├── kosha/                      # Framework for economic governance
+│   │   ├── one-pager.md
+│   │   ├── examples.md
+│   │   ├── activities.md
+│   │   └── README.md
+│   ├── niti/                       # Framework for policy and diplomacy
+│   │   ├── one-pager.md
+│   │   ├── examples.md
+│   │   ├── activities.md
+│   │   └── README.md
+│   ├── dandaniti/                  # Framework for justice
+│   │   ├── one-pager.md
+│   │   ├── examples.md
+│   │   ├── activities.md
+│   │   └── README.md
+│   └── README.md                   # Guide to frameworks
+├── evaluation/                     # Tools to apply and assess frameworks
+│   ├── checklists/                 # Evaluation templates
+│   │   ├── policy-checklist.md     # For policymakers
+│   │   ├── student-quiz.md         # For students
+│   │   └── README.md
+│   ├── templates/                  # Governance templates
+│   │   ├── local-governance-plan.md  # For policymakers
+│   │   ├── budget-plan.md          # For policymakers
+│   │   └── README.md
+│   └── README.md                   # Guide to evaluation tools
+├── contributor-guide/              # How to contribute
+│   ├── contributing.md             # Contribution guidelines
+│   ├── ideas.md                    # Suggest new ideas
+│   ├── submissions.md              # Submit content
+│   └── README.md                   # Overview of contributing
+├── user-manual/                    # Guides for learners
+│   ├── what-is-arthashastra.md     # Introduction for beginners
+│   ├── for-students.md             # Student guide with stories/activities
+│   ├── for-policymakers.md         # Policymaker guide with tips
+│   ├── faq.md                      # Common questions
+│   └── README.md                   # Guide to using manuals
+├── README.md                       # Main project README
+├── LICENSE                         # License (e.g., MIT)
+└── .gitignore                      # Git ignore file

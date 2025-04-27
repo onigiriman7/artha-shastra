@@ -14,7 +14,7 @@ Join us in reimagining how ancient Indian knowledge can inspire, educate, and so
 
 ## 📜 What is the Arthashastra?
 
-The *Arthashastra*, attributed to Kautilya (also known as Chanakya), is a 3rd-century BCE Sanskrit masterpiece that offers a comprehensive guide to governance, economics, law, diplomacy, and military strategy. Often compared to Machiavelli’s *The Prince*, it provides practical and ethical insights into building and sustaining a prosperous state. Its rich vocabulary, intricate grammar, and timeless principles make it an ideal foundation for AI-driven exploration and a treasure trove for studying Bharatiya governance.
+The *Arthashastra*, attributed to Kautilya (also known as Chanakya), is a 3rd-century BCE Sanskrit masterpiece that offers a comprehensive guide to governance, economics, law, diplomacy, and military strategy. It provides practical and ethical insights into building and sustaining a prosperous state. Its rich vocabulary, intricate grammar, and timeless principles make it an ideal foundation for AI-driven exploration and a treasure trove for studying Bharatiya governance.
 
 ## 🚀 Features & Applications (Just an example of what's being planned)
 

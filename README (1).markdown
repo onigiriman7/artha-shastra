@@ -41,7 +41,14 @@ Our growing collection of resources on Bharatiya governance, anchored by the *Ar
 - **Future Resources**: Translations, commentaries, case studies, and analyses of other Bharatiya governance texts (e.g., *Nitishastra*, *Dharmashastras*).
 - **AI-Generated Insights**: (Planned) Summaries, hypothetical governance scenarios, or policy recommendations inspired by the *Arthashastra*.
 
-### 4. Interactive Web Platform
+### 4. Arthashastra AI (Sanskrit LLM)
+To support framework development and evaluation, we’re building a Sanskrit LLM trained on the *Arthashastra* using ByT5 and Panini’s grammar for efficiency. Features:
+- Generate authentic Sanskrit responses (e.g., *rājā prajāḥ pālayati, daṇḍena saṃnadati ca*—“The king protects the subjects and governs with justice”).
+- Support framework design by producing *Arthashastra*-based policy recommendations or governance models.
+- Evaluate modern systems by generating comparative analyses in Sanskrit or English.
+- **Progress**: Detailed architecture (data preparation, training, inference) with a prototype React SPA visualizing the process.
+
+### 5. Interactive Web Platform
 - A responsive React SPA (in `web/`, planned) visualizes the LLM architecture and governance frameworks, making complex concepts accessible.
 - Planned features: Query interface for the LLM, interactive framework templates, evaluation dashboards, and integration of notes for learning.
 
@@ -51,6 +58,45 @@ Our growing collection of resources on Bharatiya governance, anchored by the *Ar
 - **Improve Modern Systems**: Provide tools to assess and enhance government policies and structures with time-tested principles.
 - **Preserve Heritage**: Make the *Arthashastra*’s wisdom accessible through frameworks, tools, and resources.
 - **Global Impact**: Inspire policymakers, scholars, and leaders worldwide to learn from Kautilya’s ethical and strategic insights.
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Interest in governance, Indian heritage, or AI (no prior expertise required).
+- Tools: Git, Node.js (for React SPA), Python 3.x (for LLM), and a code editor (e.g., VS Code).
+- Access to the *Arthashastra* text at [sanskritdocuments.org](https://sanskritdocuments.org/doc_z_misc_sociology_astrology/artha.html).
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/onigiriman7/artha-shastra.git
+   cd artha-shastra
+   ```
+2. Install dependencies for the React SPA (once implemented):
+   ```bash
+   cd web
+   npm install
+   ```
+3. (Future) Set up Python environment for LLM development:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Exploring the Notes
+- Navigate to [`arthashastra-notes/markdown`](arthashastra-notes/markdown) to read summaries of *Arthashastra* concepts (e.g., governance, economics).
+- Use these as a starting point for developing frameworks or evaluation criteria.
+
+### Running the React SPA
+- Start the development server (once SPA is added):
+   ```bash
+   cd web
+   npm start
+   ```
+- Open `http://localhost:3000` to view the interactive LLM architecture or framework visualizations.
+
+### Contributing to Frameworks
+- Check `docs/` (or create it) for framework drafts and evaluation methodologies.
+- Use notes in [`arthashastra-notes/markdown`](arthashastra-notes/markdown) to inform framework design or policy analysis.
 
 ## 🌍 Potential Impact
 
@@ -91,6 +137,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) (to be created) for details.
 - [x] Developed a prototype React SPA to visualize the architecture.
 - [ ] Draft initial Bharatiya governance frameworks based on *Arthashastra* principles.
 - [ ] Design evaluation methodologies for modern government systems.
+- [ ] Scrape and preprocess *Arthashastra* text for LLM training.
+- [ ] Implement synthetic data generation using `sanskrit_parser`.
+- [ ] Train and deploy the ByT5-based LLM.
 - [ ] Launch a web platform with framework templates and evaluation tools.
 
 ## 📬 Contact
